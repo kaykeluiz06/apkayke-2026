@@ -1,0 +1,22 @@
+Algoritmo <exercício ler o nome e as notas e calcular media>
+
+
+	caracter nome;
+        inteiro nota1, nota2, nota3
+        real media
+
+
+  	escreva("Aluno: ")
+        leia (nome)
+
+        escreva("Digite primeira nota:")
+        leia(nota1)
+
+        escreva("Digite segunda nota:")
+        leia(nota2)
+ 
+       media = (nota1 + nota2 + nota3) / 3
+
+       escreva ("A média do aluno foi: ", media)
+
+fim

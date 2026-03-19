@@ -1,0 +1,23 @@
+algoritmo<comissao das vendas>
+
+    inteiro numeroVendas;
+    real salario, valorItem, comissaoVendas;
+    caracter nome;
+
+    escreva("Nome do vendedor: ")
+    leia(nome)
+
+    escreva("Salario fixo: ")
+    leia(salario)
+
+    escreva("Quantidade de vendas: ")
+    leia(numeroVendas)
+
+    escreva("Valor de cada item: ")
+    leia(valorItem)
+
+    comissaoVendas = (numeroVendas * valorItem) * 0.15
+
+    escreva("Comissao: ", comissaoVendas)
+
+fimalgoritmo
