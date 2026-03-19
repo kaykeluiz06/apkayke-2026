@@ -1,0 +1,72 @@
+programa {
+  funcao inicio() {
+    inteiro idade
+    real altura
+    cadeia nome
+
+    escreva ("Qnts anos: ")
+    leia (idade)
+
+    escreva ("Qual sua altura: ")
+    leia (altura)
+
+    escreva ("Qual seu nome: ")
+    leia (nome)
+
+    se (idade >= 18)
+    {
+      escreva ("Maior de idade")
+    }
+    senao 
+    {
+      escreva ("Menor de idade")
+    }
+  }
+}
+--------------------------------------
+programa {
+  funcao inicio() {
+    inteiro num1, num2
+    inteiro soma, multiplicacao
+    real subtracao, divisao
+
+    escreva ("Digite seu primeiro numero: ")
+    leia (num1)
+
+    escreva ("Digite seu segundo numero:")
+    leia (num2)
+
+    soma = (num1 + num2)
+    escreva ("A soma dos numeros é:", soma)
+
+    subtracao = (num1 + num2)
+    escreva ("\nA subtracao dos numeros é: ", subtracao)
+
+    multiplicacao = (num1 * num2)
+    escreva ("\nA multiplicacao dos numeros é: ", multiplicacao)
+
+    divisao = (num1 / num2)
+    escreva ("\nA divisao dos numeros é:", divisao)
+  }
+}
+-----------------------------------------------------------------------
+programa {
+  funcao inicio() {
+    cadeia nome
+    inteiro nota1, nota2
+    real media
+
+    escreva("Aluno: ")
+    leia (nome)
+
+    escreva("Digite primeira nota:")
+    leia(nota1)
+
+    escreva("Digite segunda nota:")
+    leia(nota2)
+
+    media = (nota1 + nota2) / 2
+
+    escreva ("A média do aluno foi: ", media)
+  }
+}
